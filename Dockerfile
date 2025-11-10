@@ -7,14 +7,17 @@ ENV PORT 8080
 # Create working directory
 WORKDIR /usr/src/app
 
-# Install Angular CLI globally
+# Enable Corepack and install pnpm.
+RUN corepack enable && corepack prepare pnpm@latest --activate
+
+# Install Angular CLI globally.
 RUN npm install -g @angular/cli
 
-# Copy package files
-COPY package*.json ./
+# Copy package files.
+COPY package*.json pnpm-lock.yaml* ./
 
-# Install ALL dependencies (both production and dev)
-RUN npm install
+# Install ALL dependencies (both production and dev).
+RUN pnpm i
 
 # Copy all source files
 COPY . .

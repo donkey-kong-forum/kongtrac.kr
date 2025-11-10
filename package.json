@@ -35,7 +35,7 @@
     "@uirouter/core": "6.0.1",
     "algoliasearch": "^3.35.1",
     "angular": "^1.7.8",
-    "angular-bootstrap-slider": "0.1.29",
+    "angular-bootstrap-slider": "github:seiyria/angular-bootstrap-slider#0.1.28",
     "angular-highcharts": "^8.0.3",
     "angular-instantsearch": "^2.2.2",
     "angular-ladda": "^0.3.1",
