@@ -140,6 +140,9 @@ importers:
       jquery:
         specifier: ^2.1.4
         version: 2.2.4
+      ladda:
+        specifier: ^0.9.8
+        version: 0.9.8
       lodash:
         specifier: ^4.17.15
         version: 4.17.21
@@ -199,8 +202,8 @@ importers:
         specifier: ^24.0.18
         version: 24.9.1
       '@types/jquery':
-        specifier: ^3.3.31
-        version: 3.5.33
+        specifier: 3.3.31
+        version: 3.3.31
       '@types/lodash':
         specifier: ^4.14.144
         version: 4.17.20
@@ -1144,8 +1147,8 @@ packages:
   '@types/jest@24.9.1':
     resolution: {integrity: sha512-Fb38HkXSVA4L8fGKEZ6le5bB8r6MRWlOCZbVuWZcmOMSCd2wCYOwN1ibj8daIoV9naq7aaOZjrLCoCMptKU/4Q==}
 
-  '@types/jquery@3.5.33':
-    resolution: {integrity: sha512-SeyVJXlCZpEki5F0ghuYe+L+PprQta6nRZqhONt9F13dWBtR/ftoaIbdRQ7cis7womE+X2LKhsDdDtkkDhJS6g==}
+  '@types/jquery@3.3.31':
+    resolution: {integrity: sha512-Lz4BAJihoFw5nRzKvg4nawXPzutkv7wmfQ5121avptaSIXlDNJCUuxZxX/G+9EVidZGuO0UBlk+YjKbwRKJigg==}
 
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
@@ -8113,7 +8116,7 @@ snapshots:
     dependencies:
       jest-diff: 24.9.0
 
-  '@types/jquery@3.5.33':
+  '@types/jquery@3.3.31':
     dependencies:
       '@types/sizzle': 2.3.10
 
